@@ -1,0 +1,27 @@
+
+ .carousel-item img {
+    height: 500px;
+    object-fit: cover; 
+  }
+  .container img{
+    height: 300px;
+  }
+  #offers {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+  }
+  
+  #offers h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #offers .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #offers .card:hover {
+    transform: scale(1.05);
+  }
+  
+
